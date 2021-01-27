@@ -1,58 +1,48 @@
 # Outline
 
 - Welcome to Eldragiir
-- Story of Eldragiir
-- Factions & Notable Groups
-- Planes & Places
-  - Commonlands
-    - Ha'ven
-      - Sovereign
-      - The Gilded Coast
-        - Everguard
-          - Goldstead
-        - Bridgewater
-        - Cragview Cove
-        - Greenborough
-        - Lakeside
-          - Duck Farm
-        - Norbury & Soubury
-        - 7th Legion Garrison
-          - Fort Bahl
-    - Gil'brun
-      - Bastion
-      - Felcoop
-      - Bridale
-      - 105th Garrison
-      - Twilef
-      - Temple of the Hand
-      - Fort Brax
-      - Nostro
-      - Belwind
+  - A World of Travellers
+  - The Planes
+    - Commonlands
+    - Brightlands
+    - Blightlands
+  - Eca
+- Factions
+  - The Empire of His Light
+    - The Emperor
+    - His Legions
+  - The Migrant Kingdom
+    - The Prince of Fire
+    - The Five Cadre
+- Places
+  - Ha'ven
+    - Sovereign
+    - The Gilded Coast
+      - Everguard
+      - Bridgewater
+      - Cragview Cove
+      - Norbury & Soubury
+      - 7th Legion Garrison (Fort Bahl)
+  - Gil'brun
+    - Bastion
+    - Twilef
+    - Temple of the Hand
+    - Nostro
+    - The Tear
       - Death Temple
-      - The Tear
-      - Blackwall
-      - The Blighted Tower
-      - Hel
-      - Rivenhood
-      - Newnook
-      - 51st Garrison
-      - Redstead
-      - The Red Prison
-      - The Battered Keep
-      - Kragpeak
-      - The Maw
-      - Steel Sons Garrison
-  - Brightlands
-    - Talaren
-  - Blightlands
-    - Tiamon
+    - Blackwall
+    - The Blighted Tower
+    - Hel
+    - Rivenhood
+    - Newnook
+    - Kragpeak
+  - Talaren
+  - Tiamon
     - The Jagged Teeth
 - Races
-- Classes & Backgrounds
-- Eca
-- Flora & Fauna
-- Running the Game
-- Extras
-- Glossary
-- Maps
+  - Cind (Tiefling)
+  - Diss (Dragonborn)
+  - Elefel (Elf)
+  - Gral (Human)
+  - Con'n (Warforged)
 - Credits
