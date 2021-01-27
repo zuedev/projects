@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {{ page.title }} | Paradise
+    </title>
+    <meta property="og:site_name" content="paradise.zue.dev" />
+    <meta property="og:type" content="article" />
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    {% endif %} {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}" />
+    {% else %} {% if page.url %}
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    {% endif %} {% endif %} {% if page.thumbnail %}
+    <meta property="og:image" content="{{ page.thumbnail }}" />
+    <meta property="twitter:image" content="{{ page.thumbnail }}" />
+    <meta property="twitter:card" content="summary_large_image" />
+    {% endif %} {% if page.author %}
+    <meta property="og:article:author" content="{{ page.author }}" />
+    <meta property="og:article:author" content="zuedev" />
+    {% else %}
+    <meta property="og:article:author" content="zuedev" />
+    {% endif %}
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    {% if page.customCss %}
+    <link rel="stylesheet" href="{{ page.customCss }}"></link>
+    {% endif %}
+    <script>
+      const _state = {
+        page: {{ page |  jsonify }}
+      }
+    </script>
+  </head>
+  <body>
+    <div class="article">
+      <header>
+        {% if page.thumbnail %}
+        {% if page.thumbnailPlaceholder %}
+        <div id="thumbnail"></div>
+        <script src="https://rawcdn.githack.com/brianium/watermarkjs/523ea613c6f7f22a68e775f82066d16ad207716c/dist/watermark.min.js"></script>
+        <script>
+          watermark(['{{ page.thumbnail }}'])
+            .image(watermark.text.lowerRight('PLACEHOLDER', '40px monospace', '#ff0000', 1))
+            .then(function (img) {
+              document.getElementById('thumbnail').appendChild(img);
+              img.style.width = "100%";
+            });
+        </script>
+        {% else %}
+        <img id="thumbnail" src="{{ page.thumbnail }}" />
+        {% endif %}
+        {% endif %}        
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.description }}</p>
+      </header>
+      <main>
+        {{ content }}
+      </main>
+      <footer>
+        <!-- <span>Last modified at: </span> -->
+      </footer>
+    </div>
+  </body>
+</html>

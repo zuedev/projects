@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 1rem;
+}
+
+html {
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+h1:first-child {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.capitalise {
+  text-transform: capitalize;
+}
+
+#thumbnail {
+  width: 100%;
+  max-height: 33vh;
+  object-fit: cover;
+}
+
+img {
+  max-width: 100%;
+}

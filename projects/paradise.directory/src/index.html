@@ -1,0 +1,15 @@
+---
+title: Paradise Directory
+description: Greetings user, and welcome to the Paradise Directory!
+---
+
+If it's your first time here, we recommend reading through the <a href="./introduction">introduction</a>.
+
+{% for collection in site.collections %} {% if collection.docs.size > 0 %}
+<h2 class="capitalise">{{ collection.label }}</h2>
+<ul>
+  {% for item in site[collection.label] %}
+  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %} {% endfor %}

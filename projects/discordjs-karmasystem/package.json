@@ -1,0 +1,25 @@
+{
+  "name": "discordjs-karmasystem",
+  "version": "1.0.2",
+  "description": "An easy and simple implementation of a typical 'Karma' system using Discord.js",
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuedev/discordjs-karmasystem.git"
+  },
+  "keywords": [
+    "discord.js",
+    "karma",
+    "points-system"
+  ],
+  "author": "zuedev",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/zuedev/discordjs-karmasystem/issues"
+  },
+  "homepage": "https://github.com/zuedev/discordjs-karmasystem#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "lowdb": "^1.0.0"
+  }
+}

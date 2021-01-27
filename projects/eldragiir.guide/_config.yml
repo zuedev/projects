@@ -1,0 +1,10 @@
+source: "src"
+safe: true
+disable_disk_cache: true
+defaults:
+  - values:
+      layout: "default"
+collections_dir: _collections
+collections:
+  characters:
+    output: true

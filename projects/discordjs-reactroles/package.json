@@ -1,0 +1,23 @@
+{
+  "name": "discordjs-reactroles",
+  "version": "1.1.0",
+  "description": "An easy and simple implementation of 'React Roles' using Discord.js",
+  "main": "index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuedev/discordjs-reactroles.git"
+  },
+  "keywords": [
+    "discord.js",
+    "roles-management"
+  ],
+  "author": "zuedev",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/zuedev/discordjs-reactroles/issues"
+  },
+  "homepage": "https://github.com/zuedev/discordjs-reactroles#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+---
+layout: default
+title: Eldragiir Index
+description: Birthed from embers and torn asunder by dragons, the world of Eldragiir is an ever-changing realm of mad-gods and foolish mortals. With everyone vying for control over precious artifacts left behind by a once-great ancient civilisation known only as The Precursors, much darker forces fester and scheme below the surface.
+---
+
+{% for collection in site.collections %} {% if collection.docs.size > 0 %}
+<h2 class="capitalise">{{ collection.label }}</h2>
+<ul>
+  {% for item in site[collection.label] %}
+  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %} {% endfor %}
