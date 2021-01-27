@@ -2,6 +2,7 @@
 
 - Welcome to Eldragiir
   - A World of Travellers
+  - The Cataclysm
   - The Planes
     - Commonlands
     - Brightlands
@@ -30,8 +31,6 @@
     - Nostro
     - The Tear
       - Death Temple
-    - Blackwall
-    - The Blighted Tower
     - Hel
     - Rivenhood
     - Newnook
