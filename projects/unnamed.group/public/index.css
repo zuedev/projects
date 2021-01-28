@@ -32,3 +32,15 @@ footer {
   padding-top: 1rem;
   font-style: italic;
 }
+
+a {
+  text-decoration: none;
+}
+
+#socialLinks {
+  font-size: 2rem;
+}
+
+#socialLinks a:hover {
+  filter: brightness(75%);
+}
