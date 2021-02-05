@@ -1,1 +1,3 @@
-document.getElementById("year").innerHTML = new Date().getFullYear();
+var thisYear = document.createElement('div');
+thisYear.innerHTML = new Date().getFullYear();
+document.getElementById("year").appendChild(thisYear);​​​​​​​​​​​​​​​​
