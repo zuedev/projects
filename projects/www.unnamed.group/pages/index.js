@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import "@fortawesome/fontawesome-free/js/all.js";
 
 export default function index() {
@@ -12,14 +13,19 @@ export default function index() {
         <meta property="og:title" content="Unnamed Group" />
         <meta property="og:description" content="Make memes, not war" />
         <meta property="og:image" content="/preview.png" />
-        <meta property="twitter:image" content="/preview.png" />
+        <meta property="twitter:image" content="/img/preview.png" />
         <meta property="twitter:card" content="summary_large_image" />
-        <link rel="icon" href="/uglogow.png" />
-        <link rel="stylesheet" href="index.css" />
+        <link rel="icon" href="/img/uglogow.png" />
+        <link rel="stylesheet" href="/css/index.css" />
       </Head>
       <div id="parent">
         <main>
-          <img id="logo" src="/uglogow-bs4px_blink_invert.gif" />
+          <Image
+            id="logo"
+            src="/img/uglogow-bs4px_blink_invert.gif"
+            width={64}
+            height={64}
+          />
           <br />
           <h1>Unnamed Group</h1>
           <h4>Make memes, not war</h4>

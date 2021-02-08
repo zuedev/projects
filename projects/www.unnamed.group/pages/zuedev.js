@@ -18,7 +18,7 @@ export default function index() {
           integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo="
           crossOrigin="anonymous"
         ></script>
-        <link rel="stylesheet" href="/zuedev.css" />
+        <link rel="stylesheet" href="/css/zuedev.css" />
       </Head>
       <div id="parent">
         <div id="headerPattern"></div>
