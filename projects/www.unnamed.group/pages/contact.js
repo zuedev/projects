@@ -3,10 +3,12 @@ export default function contact() {
     <form
       name="contact"
       method="POST"
+      action="/"
       data-netlify-recaptcha="true"
       netlify-honeypot="bot-field"
       data-netlify="true"
     >
+      <input type="hidden" name="form-name" value="contact" />
       <p style={{ display: "none" }}>
         <label>
           Don’t fill this out if you’re human: <input name="bot-field" />
