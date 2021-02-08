@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function index() {
+export default function zuedev() {
   return (
     <div>
       <Head>
