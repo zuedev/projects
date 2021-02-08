@@ -74,4 +74,4 @@ You can forgo your movement in a turn to do a special action, these are listed b
 
 ## Revised Wild Magic Surge Table
 
-Any sort of "wild magic" now uses [this table](./wildMagicSurgeTable.md).
+Any sort of "wild magic" now uses [this table](./revisedWildMagicSurgeTable.md).
