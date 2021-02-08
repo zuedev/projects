@@ -1,4 +1,5 @@
 import Head from "next/head";
+import "@fortawesome/fontawesome-free/js/all.js";
 
 export default function index() {
   return (
@@ -15,10 +16,6 @@ export default function index() {
         <meta property="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/uglogow.png" />
         <link rel="stylesheet" href="index.css" />
-        <script
-          src="https://kit.fontawesome.com/3fe4861392.js"
-          crossOrigin="anonymous"
-        ></script>
       </Head>
       <div id="parent">
         <main>
