@@ -2,10 +2,11 @@ export default function contact() {
   return (
     <form
       name="contact"
-      method="POST"
-      data-netlify-recaptcha="true"
-      netlify-honeypot="bot-field"
+      action="/index"
+      method="post"
       data-netlify="true"
+      netlify-honeypot="bot-field"
+      data-netlify-recaptcha="true"
     >
       <input type="hidden" name="form-name" value="contact" />
       <p style={{ display: "none" }}>
