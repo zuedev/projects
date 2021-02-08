@@ -72,6 +72,6 @@ You can forgo your movement in a turn to do a special action, these are listed b
   - **Ranged:** Aim for a specific point, such as a limb, for a specific desired effect.
   - **Saving throw:** Your spell save DC increases by +1.
 
-## Wild Magic Surge Table (Variant)
+## Revised Wild Magic Surge Table
 
 Any sort of "wild magic" now uses [this table](./wildMagicSurgeTable.md).
