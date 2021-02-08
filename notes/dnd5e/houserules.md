@@ -1,5 +1,40 @@
 # D&D 5e "House" Rules
 
+# Additional, Optional, & Variant Rules
+
+The following optional and variant rules are being used:
+
+- [Action Options (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#ActionOptions)
+- [Adamantine Weapons (Optional)](https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#AdamantineWeapons)
+- [Alien Technology (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#AlienTechnology)
+- [Alternatives to Epic Boons (Variant)](https://www.dndbeyond.com/sources/dmg/other-rewards#_idContainer056)
+- [Cleaving through Creatures (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#CleavingthroughCreatures)
+- [Customizing Your Origin (Optional)](https://www.dndbeyond.com/sources/tcoe/character-options#CustomizingYourOrigin)
+- [Downtime Revisited (Optional)](https://www.dndbeyond.com/sources/xgte/downtime-revisited)
+- [Encumbrance (Variant)](https://www.dndbeyond.com/sources/phb/using-ability-scores#VariantEncumbrance)
+- [Explosives (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#Explosives)
+- [Fear and Horror (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#FearandHorror)
+- [Firearms (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#Firearms)
+- [Hitting Cover (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#HittingCover)
+- [Injuries (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#Injuries)
+- [Loyalty (Optional)](https://www.dndbeyond.com/sources/dmg/creating-nonplayer-characters#OptionalRuleLoyalty)
+- [Milestones (Additional)](https://www.dndbeyond.com/sources/dmg/running-the-game#Milestones)
+- [Mixing Potions (Optional)](https://www.dndbeyond.com/sources/dmg/treasure#_idContainer012)
+- [Morale (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#Morale)
+- [Optional Class Features (Optional)](https://5e.tools/variantrules.html#optional%20class%20features_tce)
+- [Planar Effects (Optional)](https://5e.tools/variantrules.html#planar%20effects_dmg)
+- [Renown (Optional)](https://www.dndbeyond.com/sources/dmg/a-world-of-your-own#Renown)
+- [Scroll Mishaps (Optional)](https://www.dndbeyond.com/magic-items/spell-scroll#ScrollMishap)
+- [Simultaneous Effects (Optional)](https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#SimultaneousEffects)
+- [Skills with Different Abilities (Variant)](https://www.dndbeyond.com/sources/phb/using-ability-scores#VariantSkillswithDifferentAbilities)
+- [Sleep (Optional)](https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#Sleep)
+- [Spell Points (Variant)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#VariantSpellPoints)
+- [Spellcasting (Optional)](https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#Spellcasting)
+- [Tool Proficiencies (Optional)](https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#ToolProficiencies)
+- [Tying Knots (Optional)](https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#TyingKnots)
+
+<!-- need to continue adding from this list: https://5e.tools/variantrules.html#customizing%20your%20origin_tce -->
+
 ## Critical Initiative
 
 Getting a critical success on initiative rolls changes their bonus action into a normal action for their first turn, whereas a critical fail restricts them to only movement or an action with no bonus actions.
