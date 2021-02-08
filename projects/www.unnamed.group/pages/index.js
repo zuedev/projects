@@ -55,7 +55,7 @@ export default function index() {
             <a
               href="https://github.com/unnamedgroup"
               target="_blank"
-              style={{ color: "black" }}
+              style={{ color: "#333" }}
             >
               <i className="fab fa-github"></i>
             </a>

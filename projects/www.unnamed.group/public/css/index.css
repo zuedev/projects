@@ -41,6 +41,10 @@ a {
   font-size: 2rem;
 }
 
+#socialLinks > a:not(:first-child) {
+  padding-left: 1rem;
+}
+
 #socialLinks a:hover {
   filter: brightness(75%);
 }
