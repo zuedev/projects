@@ -1,21 +1,5 @@
 # D&D 5e "House" Rules
 
-# Additional, Optional, & Variant Rules
-
-The following variant rules are being used:
-
-- [Action Options (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#ActionOptions)
-- [Adamantine Weapons (Optional)](https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#AdamantineWeapons)
-- [Alien Technology (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#AlienTechnology)
-- [Cleaving through Creatures (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#CleavingthroughCreatures)
-- [Encumbrance (Variant)](https://www.dndbeyond.com/sources/phb/using-ability-scores#VariantEncumbrance)
-- [Injuries (Optional)](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#Injuries)
-- [Milestones (Additional)](https://www.dndbeyond.com/sources/dmg/running-the-game#Milestones)
-
-<!-- need to continue adding from this list: https://5e.tools/variantrules.html#customizing%20your%20origin_tce -->
-
-# Homebrew Rules
-
 ## Critical Initiative
 
 Getting a critical success on initiative rolls changes their bonus action into a normal action for their first turn, whereas a critical fail restricts them to only movement or an action with no bonus actions.
