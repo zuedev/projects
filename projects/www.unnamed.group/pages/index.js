@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import "@fortawesome/fontawesome-free/js/all.js";
 
 export default function index() {
@@ -20,12 +19,7 @@ export default function index() {
       </Head>
       <div id="parent">
         <main>
-          <Image
-            id="logo"
-            src="/img/uglogow-bs4px_blink_invert.gif"
-            width={64}
-            height={64}
-          />
+          <img id="logo" src="/img/uglogow-bs4px_blink_invert.gif" />
           <br />
           <h1>Unnamed Group</h1>
           <h4>Make memes, not war</h4>
