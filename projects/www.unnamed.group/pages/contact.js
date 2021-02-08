@@ -3,7 +3,6 @@ export default function contact() {
     <form
       name="contact"
       method="POST"
-      action="/"
       data-netlify-recaptcha="true"
       netlify-honeypot="bot-field"
       data-netlify="true"
