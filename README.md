@@ -11,13 +11,6 @@
 <h2>Active Projects</h2>
 
 <h3>
-    www.zue.dev
-    <a href="https://app.netlify.com/sites/zuedev-zuedev/deploys">
-        <img src="https://api.netlify.com/api/v1/badges/25f944ac-1d02-46b6-b2ab-7a9178124e19/deploy-status"/>
-    </a>
-</h3>
-
-<h3>
     www.unnamed.group
     <a href="https://app.netlify.com/sites/zuedev-unnamedgroup/deploys">
         <img src="https://api.netlify.com/api/v1/badges/2d82faf5-d1d3-407f-97c4-8a4ceca4c40f/deploy-status"/>
