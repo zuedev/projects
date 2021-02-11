@@ -16,7 +16,16 @@ _global_script_class_icons={
 [application]
 
 config/name="Unnamed Horror Game"
+run/main_scene="res://scenes/devmap.tscn"
 config/icon="res://icon.png"
+
+[gdnative]
+
+singletons=[ "res://addons/godot-openvr/godot_openvr.gdnlib" ]
+
+[physics]
+
+common/physics_fps=90
 
 [rendering]
 

@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends ARVROrigin
+
+func _ready():
+	var interface = ARVRServer.find_interface(\"OpenVR\")
+	if interface and interface.initialize():
+		get_viewport().arvr = true
+		get_viewport().keep_3d_linear = true
+		OS.vsync_enabled = false
+		Engine.target_fps = 90
+"
+
+[node name="Player" type="ARVROrigin"]
+script = SubResource( 1 )
+
+[node name="ARVRCamera" type="ARVRCamera" parent="."]
