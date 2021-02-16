@@ -3,7 +3,7 @@ WORKDIR /build
 COPY package.* ./
 RUN npm install
 COPY pages/ public/ ./
-RUN npm build+export
+RUN npm run build+export
 
 FROM lkwg82/h2o-http2-server:latest
 WORKDIR /var/www/html
