@@ -1,6 +1,6 @@
-git <h1>
-    monorepo
-    <a href="https://app.codacy.com/gh/zuedev/monorepo?utm_source=github.com&utm_medium=referral&utm_content=zuedev/monorepo&utm_campaign=Badge_Grade">
+<h1>
+    projects
+    <a href="https://app.codacy.com/gh/zuedev/projects?utm_source=github.com&utm_medium=referral&utm_content=zuedev/projects&utm_campaign=Badge_Grade">
         <img src="https://api.codacy.com/project/badge/Grade/bfe874a85be64280b48d4c8b1b70e51e"/>
     </a>
     <a href="https://github.com/prettier/prettier">
