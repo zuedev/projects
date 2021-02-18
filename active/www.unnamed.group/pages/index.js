@@ -11,7 +11,7 @@ export default function index() {
         <meta property="og:site_name" content="unnamed.group" />
         <meta property="og:title" content="Unnamed Group" />
         <meta property="og:description" content="Make memes, not war" />
-        <meta property="og:image" content="/preview.png" />
+        <meta property="og:image" content="/img/preview.png" />
         <meta property="twitter:image" content="/img/preview.png" />
         <meta property="twitter:card" content="summary_large_image" />
         <link rel="icon" href="/img/uglogow.png" />
