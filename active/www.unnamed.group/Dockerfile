@@ -1,10 +1,2 @@
-FROM node:15
-WORKDIR /build
-COPY package.* ./
-RUN npm install
-COPY pages/ pages/
-COPY public/ public/
-RUN ls ./
-RUN npm run build
-EXPOSE 3000
-CMD npm run start
+FROM lkwg82/h2o-http2-server:v2.2.6
+COPY public/ /var/www/html
