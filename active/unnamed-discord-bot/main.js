@@ -17,7 +17,7 @@ client.on("ready", () => {
   });
 });
 
-client.on("message", async (message) => {
+client.on("message", (message) => {
   if (
     !message.guild ||
     message.author.bot ||
@@ -31,17 +31,20 @@ client.on("message", async (message) => {
     case "::youtube":
     case "::yt":
       if (message.member.voice.channel) {
-        try {
-          const connection = await message.member.voice.channel.join();
-          connection.play(
-            ytdl(messageArray[1], {
-              filter: "audioonly",
-            })
-          );
-          message.react("👍");
-        } catch (error) {
-          message.react("👎");
-        }
+        message.member.voice.channel
+          .join()
+          .then((connection) => {
+            connection.play(
+              ytdl(messageArray[1], {
+                filter: "audioonly",
+              })
+            );
+            message.react("👍");
+          })
+          .catch((error) => {
+            console.error(error);
+            message.react("👎");
+          });
       } else {
         message.reply("You need to join a voice channel first!");
         message.react("👎");
@@ -49,11 +52,12 @@ client.on("message", async (message) => {
       break;
     case "::leave":
     case "::l":
-      try {
+      if (message.guild.me.voice.channel) {
         message.guild.me.voice.channel.leave();
         message.react("👍");
-      } catch (error) {
-        message.react("👎");
+      } else {
+        message.reply("I'm not in a voice channel...");
+        message.react("🤔");
       }
       break;
     default:
