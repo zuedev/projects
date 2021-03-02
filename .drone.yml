@@ -2,7 +2,7 @@ kind: pipeline
 type: docker
 
 steps:
-- name: test_pipeline
+- name: test_pipeline_2
   image: ubuntu
   commands:
   - echo "Hello, world! :>"
