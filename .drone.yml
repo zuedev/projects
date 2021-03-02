@@ -1,0 +1,13 @@
+kind: pipeline
+type: docker
+
+steps:
+- name: test_pipeline
+  image: ubuntu
+  commands:
+  - echo "Hello, world! :>"
+  when:
+    branch:
+    - master
+    event:
+    - push
