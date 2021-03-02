@@ -1,5 +1,5 @@
-const Discord = require("discord.js"),
-  ytdl = require("ytdl-core");
+import Discord from "discord.js";
+import ytdl from "ytdl-core";
 
 const client = new Discord.Client();
 
