@@ -3,7 +3,7 @@ const Discord = require("discord.js"),
 
 const client = new Discord.Client();
 
-client.login("NzI2NjE0NzY4Mzk1MjIzMDk3.Xvf2vA.BOb1jRyp4UBSu45Y0SClWqSbC74");
+client.login("token");
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}! 🚀`);
