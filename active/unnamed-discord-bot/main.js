@@ -7,6 +7,14 @@ client.login(process.env.TOKEN);
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}! 🚀`);
+  client.user.setPresence({
+    activity: {
+      name: "you.",
+      type: "WATCHING",
+      //   url: "https://twitch.tv/thatempty_space",
+    },
+    status: "online",
+  });
 });
 
 client.on("message", async (message) => {
