@@ -18,7 +18,12 @@ client.on("ready", () => {
 });
 
 client.on("message", async (message) => {
-  if (!message.guild || message.author.bot) return;
+  if (
+    !message.guild ||
+    message.author.bot ||
+    message.content.substr(0, 2) !== "::"
+  )
+    return;
 
   const messageArray = message.content.split(" ");
 
