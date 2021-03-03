@@ -34,11 +34,7 @@ client.on("message", (message) => {
         message.member.voice.channel
           .join()
           .then((connection) => {
-            connection.play(
-              ytdl(messageArray[1], {
-                filter: "audioonly",
-              })
-            );
+            streamYoutubeAudio(connection, messageArray[1]);
             message.react("👍");
           })
           .catch((error) => {
@@ -66,3 +62,12 @@ client.on("message", (message) => {
       break;
   }
 });
+
+function streamYoutubeAudio(connection, youtubeUrl) {
+  let play = () => {
+    connection
+      .play(ytdl(youtubeUrl, { filter: "audioonly" }))
+      .on("finish", play);
+  };
+  play();
+}
