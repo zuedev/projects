@@ -6,6 +6,9 @@
     <a href="https://github.com/prettier/prettier">
         <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"/>
     </a>
+    <a href="https://drone.unnamed.group/zuedev/monorepo">
+        <img src="https://drone.unnamed.group/api/badges/zuedev/monorepo/status.svg" />
+    </a>
 </h1>
 
 <h2>Active Projects</h2>
