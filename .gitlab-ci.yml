@@ -1,3 +1,5 @@
 include:
   - local: "/active/www.unnamed.group/.gitlab-ci.yml"
   - local: "/active/unnamed-discord-bot/.gitlab-ci.yml"
+  - template: Container-Scanning.gitlab-ci.yml
+  - template: Security/SAST.gitlab-ci.yml
