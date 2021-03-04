@@ -1,5 +1,6 @@
-uag_site_deploy:
+uagwww_build:
   image: docker:20
+  stage: build
   services:
     - docker:20-dind
   variables:
