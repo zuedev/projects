@@ -1,0 +1,9 @@
+uag_site_deploy:
+  image: alpine:3
+  script:
+    - echo "It worked! :D"
+  only:
+    refs:
+      - master
+    changes:
+      - active/www.unnamed.group/**/*
