@@ -4,12 +4,11 @@ uagwww_build:
   services:
     - docker:20-dind
   variables:
-    CONTAINER_OWNER: zuedev
-    CONTAINER_IDENTIFIER: monorepo/www.unnamed.group
+    CONTAINER_IDENTIFIER: zuedev/monorepo/www.unnamed.group
   script:
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
-    - docker build -t $CI_REGISTRY/$CONTAINER_OWNER/$CONTAINER_IDENTIFIER:latest ./$CONTAINER_IDENTIFIER
-    - docker push $CI_REGISTRY/$CONTAINER_OWNER/$CONTAINER_IDENTIFIER:latest
+    - docker build -t $CI_REGISTRY/$CONTAINER_IDENTIFIER:latest ./$CONTAINER_IDENTIFIER
+    - docker push $CI_REGISTRY/$CONTAINER_IDENTIFIER:latest
   only:
     refs:
       - master
