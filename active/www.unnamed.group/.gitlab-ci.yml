@@ -15,3 +15,4 @@ uagwww_build:
       - master
     changes:
       - active/www.unnamed.group/**/*
+      
