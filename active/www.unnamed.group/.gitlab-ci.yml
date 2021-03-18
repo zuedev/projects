@@ -11,7 +11,5 @@ uagwww_build:
     - docker build -t $CI_REGISTRY/$CONTAINER_IDENTIFIER:$CI_COMMIT_SHA -t $CI_REGISTRY/$CONTAINER_IDENTIFIER:latest ./$BUILD_CONTEXT
     - docker push $CI_REGISTRY/$CONTAINER_IDENTIFIER --all-tags
   only:
-    refs:
-      - branches
     changes:
       - /active/www.unnamed.group/**/*
