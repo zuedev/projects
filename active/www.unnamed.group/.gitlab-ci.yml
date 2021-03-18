@@ -14,5 +14,4 @@ uagwww_build:
     refs:
       - master
     changes:
-      - active/www.unnamed.group/**/*
-      
+      - /active/www.unnamed.group/**/*
