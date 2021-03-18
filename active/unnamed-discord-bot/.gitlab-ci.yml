@@ -1,4 +1,4 @@
-uagwww_build:
+uagbot_build:
   image: docker:20
   stage: build
   services:
