@@ -1,12 +1,12 @@
 include:
-  - template: Container-Scanning.gitlab-ci.yml
-  - template: Security/SAST.gitlab-ci.yml
-  - template: Security/Secret-Detection.gitlab-ci.yml
-  - template: Dependency-Scanning.gitlab-ci.yml
-  - template: Security/License-Scanning.gitlab-ci.yml
+  # - template: Container-Scanning.gitlab-ci.yml
+  # - template: Security/SAST.gitlab-ci.yml
+  # - template: Security/Secret-Detection.gitlab-ci.yml
+  # - template: Dependency-Scanning.gitlab-ci.yml
+  # - template: Security/License-Scanning.gitlab-ci.yml
   - local: /active/www.unnamed.group/.gitlab-ci.yml
   - local: /active/unnamed-discord-bot/.gitlab-ci.yml
 
-secret_detection:
-  variables:
-    SECRET_DETECTION_HISTORIC_SCAN: "true"
+# secret_detection:
+#   variables:
+#     SECRET_DETECTION_HISTORIC_SCAN: "true"
