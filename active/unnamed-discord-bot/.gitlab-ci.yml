@@ -12,6 +12,6 @@ uagbot_build:
     - docker push $CI_REGISTRY/$CONTAINER_IDENTIFIER --all-tags
   only:
     refs:
-      - master
+      - branches
     changes:
-      - active/unnamed-discord-bot/**/*
+      - /active/unnamed-discord-bot/**/*
