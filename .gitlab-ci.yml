@@ -4,8 +4,8 @@ include:
   - template: Security/Secret-Detection.gitlab-ci.yml
   - template: Dependency-Scanning.gitlab-ci.yml
   - template: Security/License-Scanning.gitlab-ci.yml
-  - local: "/active/www.unnamed.group/.gitlab-ci.yml"
-  - local: "/active/unnamed-discord-bot/.gitlab-ci.yml"
+  - local: "active/www.unnamed.group/.gitlab-ci.yml"
+  - local: "active/unnamed-discord-bot/.gitlab-ci.yml"
 
 secret_detection:
   variables:
