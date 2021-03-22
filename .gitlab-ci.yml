@@ -1,3 +1,0 @@
-include:
-  - local: /active/www.unnamed.group/.gitlab-ci.yml
-  - local: /active/unnamed-discord-bot/.gitlab-ci.yml
