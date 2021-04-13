@@ -1,3 +1,5 @@
+[TOC]
+
 # D&D 5e "House" Rules
 
 ## Additional, Optional, & Variant Rules
@@ -44,6 +46,11 @@ Getting a critical success on initiative rolls changes their bonus action into a
 ### Level 1 Extra Feat
 
 All characters are allowed to pick up a racial feat at level 1. For races that don't have racial feats at all, or for those who want to pick a non-racial feat, choose a general feat and discuss it with your DM.
+
+### Modified Help Action
+
+- Characters must be proficient in activities they wish to help another character with.
+- When taking the Help action, roll 1d6 and add your proficiency modifier. The character you are helping can add this value to to their roll.
 
 ### Potion Toxicity
 
