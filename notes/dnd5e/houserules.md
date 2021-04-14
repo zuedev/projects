@@ -47,6 +47,10 @@ Getting a critical success on initiative rolls changes their bonus action into a
 
 All characters are allowed to pick up a racial feat at level 1. For races that don't have racial feats at all, or for those who want to pick a non-racial feat, choose a general feat and discuss it with your DM.
 
+### Lucky Feat Fix
+
+You must declare the use of the Lucky feat before you roll and it grants advantage.
+
 ### Modified Help Action
 
 - Characters must be proficient in activities they wish to help another character with.
