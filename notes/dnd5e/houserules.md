@@ -17,6 +17,7 @@ The following optional and variant rules are being used:
 - [Explosives](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#Explosives)
 - [Fear and Horror](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#FearandHorror)
 - [Firearms](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#Firearms)
+- [Flanking](https://www.dndbeyond.com/sources/dmg/running-the-game#OptionalRuleFlanking)
 - [Hitting Cover](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#HittingCover)
 - [Injuries](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#Injuries)
 - [Loyalty](https://www.dndbeyond.com/sources/dmg/creating-nonplayer-characters#OptionalRuleLoyalty)
