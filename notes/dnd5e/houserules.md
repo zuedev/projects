@@ -1,4 +1,4 @@
-[TOC]
+[[_TOC_]]
 
 # D&D 5e "House" Rules
 
